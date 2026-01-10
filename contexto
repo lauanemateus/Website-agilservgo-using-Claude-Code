@@ -1,0 +1,31 @@
+Contexto inicial:
+
+Para o projeto, adicione em README.md a estrutura do projeto que você estiver desenvolvendo. 
+
+Estou fazendo um site de assitência técnica de máquina de lavar roupa e geladeira, para substituir o antigo site https://www.agilservgo.com/. Por enquanto, faça o site no host local. O foco do site é as pessoas mandarem mensagem para o whatsapp a fim de fazer um orçamento. Use a logo que está na pasta "Fotos". Veja também a tela inicial do site antigo em "site_antigo.png".
+
+Do site antigo:
+A Ágil Serv é atuante no ramo de prestação de serviços em aparelhos de eletrodomésticos. Nossos técnicos foram capacitados pela maior empresa de eletrodomésticos do Brasil, são ex-funcionários do grupo Whirlpool, dona das marcas Brastemp e Consul no Brasil. Tendo visão empreendedora decidiram abrir seu próprio negócio. Nosso objetivo é prestar um serviço com agilidade e qualidade por um preço accessível e com garantia. Todos os nossos atendimentos são concluídos em até um dia útil. 
+
+Mantenha:
+- número do whatsapp (62)98605-7719 sem especificar a operadora
+- CNPJ: 24.133.162/0001-66
+
+Altere:
+- endereço para  R. Ipanema, Quadra 6 Lote 20, 14 - Res. Jardim Leblon, Goiânia - GO, 74455-373
+
+Melhore
+- identidade visual amarelo com azul claro
+- destaque: no mercado há mais de 20 anos
+- Atendemos região de Goiânia
+- Peça um orçamento
+- Serviço feito na sua casa
+- Atendimento rápido
+- Garantia de 3 meses do serviço
+- Em algum texto coloque que há honestidade e transparência
+
+Instruções técnicas
+- não terá backend
+- front end 
+- use o front end que preferir
+
