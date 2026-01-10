@@ -85,10 +85,25 @@ header {
     height: 70px;
     width: auto;
     transition: var(--transition);
+    display: none; /* Logo removido do header */
 }
 
 .logo img:hover {
     transform: scale(1.02);
+}
+
+/* WhatsApp no header */
+.header-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--green-cta);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.header-whatsapp i {
+    font-size: 1.3rem;
 }
 
 .nav-menu {
@@ -145,15 +160,18 @@ header {
 .hero {
     background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-light) 100%);
     color: var(--white);
-    padding: 100px 20px 60px;
+    padding: 100px 0 0 0;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero-container {
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -183,10 +201,28 @@ header {
     line-height: 1.8;
 }
 
+.hero-image {
+    position: relative;
+    margin-right: -40px;
+}
+
 .hero-image img {
-    max-width: 100%;
-    border-radius: var(--border-radius-lg);
+    width: 100%;
+    max-width: none;
+    border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg);
     box-shadow: var(--shadow-xl);
+}
+
+/* Hero full width image section */
+.hero-full-image {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.hero-full-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .btn-cta {
@@ -264,6 +300,12 @@ header {
     font-size: 1.05rem;
     max-width: 600px;
     margin: 0 auto;
+}
+
+/* CTA em cada seção */
+.section-cta {
+    text-align: center;
+    margin-top: 40px;
 }
 
 .diferenciais-grid {
@@ -712,19 +754,24 @@ footer .cnpj {
         padding: 10px 15px;
     }
 
-    .logo img {
-        height: 55px;
+    .header-whatsapp span {
+        display: none;
+    }
+
+    .header-whatsapp i {
+        font-size: 1.6rem;
     }
 
     .hero {
-        padding: 90px 15px 50px;
+        padding: 80px 0 30px 0;
         min-height: auto;
     }
 
     .hero-container {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 25px;
         text-align: center;
+        padding: 0 20px;
     }
 
     .hero h1 {
@@ -737,6 +784,12 @@ footer .cnpj {
 
     .hero-image {
         order: -1;
+        margin: 0 -20px;
+    }
+
+    .hero-image img {
+        border-radius: 0;
+        width: 100%;
     }
 
     .btn-cta {
@@ -751,6 +804,7 @@ footer .cnpj {
         gap: 10px;
         width: 100%;
         text-align: center;
+        margin: 20px auto 0;
     }
 
     .section-title h2 {
@@ -823,10 +877,6 @@ footer .cnpj {
         padding: 12px 20px;
     }
 
-    .logo img {
-        height: 60px;
-    }
-
     .nav-menu {
         display: none;
         position: absolute;
@@ -849,13 +899,14 @@ footer .cnpj {
     }
 
     .hero {
-        padding: 110px 20px 60px;
+        padding: 100px 0 40px 0;
     }
 
     .hero-container {
         grid-template-columns: 1fr;
         gap: 35px;
         text-align: center;
+        padding: 0 30px;
     }
 
     .hero h1 {
@@ -864,11 +915,13 @@ footer .cnpj {
 
     .hero-image {
         order: -1;
+        margin: 0 -30px;
     }
 
     .hero-image img {
-        max-width: 450px;
-        margin: 0 auto;
+        width: 100%;
+        max-width: none;
+        border-radius: 0;
     }
 
     .diferenciais-grid {
