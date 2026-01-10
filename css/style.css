@@ -170,20 +170,20 @@ header {
 
 .hero-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 60px 30px;
     text-align: center;
 }
 
 .hero-content-center {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 3.2rem;
+    margin-bottom: 25px;
     line-height: 1.2;
     font-weight: 700;
 }
@@ -194,8 +194,8 @@ header {
 }
 
 .hero p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
+    font-size: 1.4rem;
+    margin-bottom: 35px;
     opacity: 0.95;
     line-height: 1.8;
 }
@@ -377,10 +377,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    padding: 35px 45px;
+    gap: 20px;
+    padding: 50px 60px;
     background: linear-gradient(145deg, var(--blue-light) 0%, var(--blue-dark) 100%);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow);
     transition: var(--transition);
     color: var(--white);
@@ -392,13 +392,13 @@ header {
 }
 
 .servico-item i {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--yellow-primary);
 }
 
 .servico-item span {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .servicos-grid {
@@ -468,7 +468,7 @@ header {
 
 .servicos-image img {
     max-width: 100%;
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);
