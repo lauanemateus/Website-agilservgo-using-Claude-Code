@@ -166,7 +166,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../Fotos/eletrodomesticos sem logo.png') center center / cover no-repeat;
+    background: url('../Fotos/eletrodomesticos-hero.webp') center center / cover no-repeat;
 }
 
 .hero-overlay {
@@ -817,16 +817,17 @@ footer .cnpj {
     }
 
     .hero {
-        min-height: 100vh;
+        min-height: auto;
+        align-items: flex-start;
     }
 
     .hero-container {
-        padding: 80px 20px 30px;
+        padding: 70px 20px 40px;
     }
 
     .hero-logo {
         max-width: 180px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .hero h1 {
